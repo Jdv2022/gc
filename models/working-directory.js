@@ -5,8 +5,8 @@ class WorkingDirectory{
         this.files = {};
         this.file_id = 1;
     }
-    
-    //Command: touch <filename>
+    //test 2
+    //Command: touch <filename> test 1
     addFile(name, location, content){
         let path_file = location+"/"+name;
         this.files[path_file] = { 
